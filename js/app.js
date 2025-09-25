@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     addStudentButton.addEventListener('click', addStudent);
 });
-<<<<<<< HEAD
 
 function addSubject() {
     const subjectCode = document.getElementById('subjectCode').value.trim();
@@ -46,16 +45,14 @@ function addSubject() {
 
         tableContent.appendChild(newRow);
 
+        
         // Clear input fields
         document.getElementById('subjectCode').value = '';
         document.getElementById('subjectName').value = '';
         document.getElementById('units').value = '';
     } else {
-        alert('Please fill out all fields.');
+        alert('Please fill out all field.');
     }
 }
 
 document.getElementById('addSubject').addEventListener('click', addSubject);
-
-=======
->>>>>>> 0b78654c687d598c506b6b0b08e2765f17f493a4
