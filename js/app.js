@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     addStudentButton.addEventListener('click', addStudent);
 });
+<<<<<<< HEAD
 
 function addSubject() {
     const subjectCode = document.getElementById('subjectCode').value.trim();
@@ -56,3 +57,5 @@ function addSubject() {
 
 document.getElementById('addSubject').addEventListener('click', addSubject);
 
+=======
+>>>>>>> 0b78654c687d598c506b6b0b08e2765f17f493a4
